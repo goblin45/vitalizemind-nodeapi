@@ -10,7 +10,7 @@ const connectDB = require('./config/dbConn')
 connectDB()
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'chrome-extension://ghigbblhibbfagimlkdjogjfcnijikpf'],
+    origin: ['https://vitalizemind.onrender.com', 'chrome-extension://ghigbblhibbfagimlkdjogjfcnijikpf'],
     methods: 'GET, HEAD, PUT, PATCH, POST, DELETE',
     credentials: true
 }))
